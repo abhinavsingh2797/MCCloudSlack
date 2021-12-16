@@ -76,6 +76,7 @@
     "repository": "https://github.com/abhinavsingh2797/MCCloudSlack.git",
     "scripts": {
         "build": "webpack --config webpack.config.js",
+        "dev": "webpack serve",
         "build:cert": "cd certificates && buildCert.bat",
         "lint": "eslint -c .eslintrc.json",
         "watch": "run-p watch:client watch:server",
